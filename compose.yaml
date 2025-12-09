@@ -1,0 +1,6 @@
+﻿services:
+  timemygames:
+    image: timemygames
+    build:
+      context: .
+      dockerfile: TimeMyGames/Dockerfile
